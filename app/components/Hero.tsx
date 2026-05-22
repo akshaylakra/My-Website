@@ -1,3 +1,4 @@
+import Image from "next/image";
 import SocialIcon from "./SocialIcon";
 import Reveal from "./Reveal";
 
@@ -16,16 +17,21 @@ export default function Hero() {
     >
       <div className="mx-auto w-full max-w-4xl text-center">
         <Reveal>
-          <div className="mx-auto mb-8 flex h-16 w-16 items-center justify-center rounded-full border border-border-soft bg-off-white sm:h-20 sm:w-20">
-            <span className="headline-display text-2xl text-black sm:text-3xl">
-              AL
-            </span>
+          <div className="mx-auto mb-8 h-20 w-20 overflow-hidden rounded-full border border-border-soft bg-off-white sm:h-24 sm:w-24">
+            <Image
+              src="/akshay.jpg"
+              alt="Akshay Lakra"
+              width={192}
+              height={192}
+              priority
+              className="h-full w-full object-cover"
+            />
           </div>
         </Reveal>
 
         <Reveal delay={80}>
           <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-text-light">
-            Akshay Kumar Lakra
+            Akshay Lakra
           </p>
         </Reveal>
 
@@ -34,8 +40,8 @@ export default function Hero() {
             className="headline-display text-black"
             style={{ fontSize: "clamp(2.75rem, 9vw, 6.5rem)" }}
           >
-            Marketing that{" "}
-            <span className="underline-stroke">Moves</span> Markets
+            <span className="underline-stroke">Decoding</span> Marketing One
+            Story At A Time
           </h1>
         </Reveal>
 

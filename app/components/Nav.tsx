@@ -44,7 +44,7 @@ export default function Nav() {
           href="#top"
           className="text-sm font-semibold tracking-tight text-black sm:text-[15px]"
         >
-          Akshay Kumar Lakra
+          Akshay Lakra
         </a>
 
         <nav

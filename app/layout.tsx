@@ -17,31 +17,31 @@ const display = Bricolage_Grotesque({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://akshayklakra.com"),
-  title: "Akshay Kumar Lakra — B2B Marketer",
+  title: "Akshay Lakra — B2B Marketer",
   description:
-    "Akshay Kumar Lakra is a B2B marketer at a tech startup. Writing about GTM strategy, demand generation, and positioning that actually moves markets.",
+    "Akshay Lakra is a B2B marketer at a tech startup. Writing about GTM strategy, demand generation, and positioning that actually moves markets.",
   keywords: [
-    "Akshay Kumar Lakra",
+    "Akshay Lakra",
     "B2B marketing",
     "GTM strategy",
     "demand generation",
     "product marketing",
     "SaaS marketing",
   ],
-  authors: [{ name: "Akshay Kumar Lakra" }],
-  creator: "Akshay Kumar Lakra",
+  authors: [{ name: "Akshay Lakra" }],
+  creator: "Akshay Lakra",
   openGraph: {
-    title: "Akshay Kumar Lakra — B2B Marketer",
+    title: "Akshay Lakra — B2B Marketer",
     description:
       "B2B marketer writing about GTM, demand gen, and positioning that moves markets.",
     url: "https://akshayklakra.com",
-    siteName: "Akshay Kumar Lakra",
+    siteName: "Akshay Lakra",
     locale: "en_IN",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Akshay Kumar Lakra — B2B Marketer",
+    title: "Akshay Lakra — B2B Marketer",
     description:
       "B2B marketer writing about GTM, demand gen, and positioning that moves markets.",
     creator: "@akshayklakra",
