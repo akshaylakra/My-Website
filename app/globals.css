@@ -1,12 +1,22 @@
 @import "tailwindcss";
 
 :root {
-  --white: #ffffff;
-  --off-white: #f5f5f5;
-  --black: #0a0a0a;
-  --text-mid: #4a4a4a;
-  --text-light: #8a8a8a;
-  --border: rgba(10, 10, 10, 0.1);
+  /* Palette swapped to the design system's dark theme.
+     Variable names are kept (--white, --black, --off-white, etc.) so every
+     component's Tailwind class (bg-white, text-black, bg-off-white, etc.)
+     flips to dark theme automatically. Pre-flip → post-flip:
+       --white     was page bg              → now design-system bg-0
+       --off-white was alt section bg       → now raised dark surface
+       --black     was text + dark accents  → now light fg (inverts buttons + Contact)
+       --text-mid  was secondary text       → now light secondary on dark
+       --text-light was muted text          → now muted light on dark
+       --border    was dark hairline on light → now light hairline on dark */
+  --white: #0a0a0a;
+  --off-white: #1a1a1a;
+  --black: #f5f5f2;
+  --text-mid: #b5b5b0;
+  --text-light: #6e6e6a;
+  --border: rgba(245, 245, 242, 0.12);
 }
 
 @theme inline {
@@ -17,8 +27,12 @@
   --color-text-light: var(--text-light);
   --color-border-soft: var(--border);
 
-  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
-  --font-display: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-geist), ui-sans-serif, system-ui, -apple-system,
+    sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, "JetBrains Mono", Menlo,
+    monospace;
+  --font-serif: var(--font-instrument-serif), "Iowan Old Style", Georgia, serif;
+  --font-display: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
 
   --animate-pulse-dot: pulse-dot 2s ease-in-out infinite;
   --animate-reveal: reveal 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
@@ -54,7 +68,8 @@ html {
 body {
   background: var(--white);
   color: var(--black);
-  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  font-family: var(--font-geist), ui-sans-serif, system-ui, -apple-system,
+    sans-serif;
   font-feature-settings: "ss01", "cv11";
 }
 
@@ -77,8 +92,8 @@ body {
 }
 
 .headline-display {
-  font-family: var(--font-display), ui-sans-serif, system-ui, sans-serif;
-  font-weight: 800;
+  font-family: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
+  font-weight: 700;
   letter-spacing: -0.035em;
   line-height: 0.95;
 }
@@ -96,7 +111,7 @@ body {
   right: -2%;
   bottom: -0.08em;
   height: 0.18em;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 12' preserveAspectRatio='none'><path d='M2 7 C 40 1, 80 12, 120 5 S 195 9, 198 4' fill='none' stroke='%230a0a0a' stroke-width='3' stroke-linecap='round'/></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 12' preserveAspectRatio='none'><path d='M2 7 C 40 1, 80 12, 120 5 S 195 9, 198 4' fill='none' stroke='%23f5f5f2' stroke-width='3' stroke-linecap='round'/></svg>");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   pointer-events: none;
