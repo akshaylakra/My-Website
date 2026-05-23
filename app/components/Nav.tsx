@@ -38,78 +38,80 @@ export default function Nav() {
   }, [open]);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-border-soft bg-white/85 backdrop-blur-md">
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-5 sm:px-8">
-        <a
-          href="#top"
-          className="text-sm font-semibold tracking-tight text-black sm:text-[15px]"
-        >
-          Akshay Lakra
-        </a>
-
-        <nav
-          aria-label="Primary"
-          className="hidden items-center gap-8 md:flex"
-        >
-          {links.map((l) => (
-            <a
-              key={l.href}
-              href={l.href}
-              className="text-sm text-text-mid transition-colors hover:text-black"
-            >
-              {l.label}
-            </a>
-          ))}
-        </nav>
-
-        <div className="hidden items-center gap-4 md:flex">
-          <div
-            className="flex items-center gap-2 rounded-full border border-border-soft px-3 py-1.5"
-            aria-label="Availability"
+    <>
+      <header className="fixed inset-x-0 top-0 z-50 border-b border-border-soft bg-white/85 backdrop-blur-md">
+        <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-5 sm:px-8">
+          <a
+            href="#top"
+            className="text-sm font-semibold tracking-tight text-black sm:text-[15px]"
           >
-            <span className="relative flex h-2 w-2">
-              <span className="absolute inset-0 animate-pulse-dot rounded-full bg-black" />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-black" />
-            </span>
-            <span className="text-[11px] font-medium uppercase tracking-wider text-text-mid">
-              Open to connect
+            Akshay Lakra
+          </a>
+
+          <nav
+            aria-label="Primary"
+            className="hidden items-center gap-8 md:flex"
+          >
+            {links.map((l) => (
+              <a
+                key={l.href}
+                href={l.href}
+                className="text-sm text-text-mid transition-colors hover:text-black"
+              >
+                {l.label}
+              </a>
+            ))}
+          </nav>
+
+          <div className="hidden items-center gap-4 md:flex">
+            <div
+              className="flex items-center gap-2 rounded-full border border-border-soft px-3 py-1.5"
+              aria-label="Availability"
+            >
+              <span className="relative flex h-2 w-2">
+                <span className="absolute inset-0 animate-pulse-dot rounded-full bg-black" />
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-black" />
+              </span>
+              <span className="text-[11px] font-medium uppercase tracking-wider text-text-mid">
+                Open to connect
+              </span>
+            </div>
+            <span
+              suppressHydrationWarning
+              className="font-mono text-xs tabular-nums text-text-light"
+              aria-label="Current time in India"
+            >
+              {time || "--:--:-- --"}
             </span>
           </div>
-          <span
-            suppressHydrationWarning
-            className="font-mono text-xs tabular-nums text-text-light"
-            aria-label="Current time in India"
-          >
-            {time || "--:--:-- --"}
-          </span>
-        </div>
 
-        <button
-          type="button"
-          aria-label={open ? "Close menu" : "Open menu"}
-          aria-expanded={open}
-          aria-controls="mobile-menu"
-          onClick={() => setOpen((v) => !v)}
-          className="relative z-50 flex h-10 w-10 items-center justify-center md:hidden"
-        >
-          <span className="sr-only">Toggle menu</span>
-          <span
-            className={`absolute h-px w-6 bg-black transition-transform duration-300 ${
-              open ? "translate-y-0 rotate-45" : "-translate-y-1.5"
-            }`}
-          />
-          <span
-            className={`absolute h-px w-6 bg-black transition-opacity duration-200 ${
-              open ? "opacity-0" : "opacity-100"
-            }`}
-          />
-          <span
-            className={`absolute h-px w-6 bg-black transition-transform duration-300 ${
-              open ? "translate-y-0 -rotate-45" : "translate-y-1.5"
-            }`}
-          />
-        </button>
-      </div>
+          <button
+            type="button"
+            aria-label={open ? "Close menu" : "Open menu"}
+            aria-expanded={open}
+            aria-controls="mobile-menu"
+            onClick={() => setOpen((v) => !v)}
+            className="relative z-[60] flex h-10 w-10 items-center justify-center md:hidden"
+          >
+            <span className="sr-only">Toggle menu</span>
+            <span
+              className={`absolute h-px w-6 bg-black transition-transform duration-300 ${
+                open ? "translate-y-0 rotate-45" : "-translate-y-1.5"
+              }`}
+            />
+            <span
+              className={`absolute h-px w-6 bg-black transition-opacity duration-200 ${
+                open ? "opacity-0" : "opacity-100"
+              }`}
+            />
+            <span
+              className={`absolute h-px w-6 bg-black transition-transform duration-300 ${
+                open ? "translate-y-0 -rotate-45" : "translate-y-1.5"
+              }`}
+            />
+          </button>
+        </div>
+      </header>
 
       <div
         id="mobile-menu"
@@ -125,7 +127,7 @@ export default function Nav() {
               key={l.href}
               href={l.href}
               onClick={() => setOpen(false)}
-              className="headline-display text-5xl text-black"
+              className="headline-display text-4xl text-black"
             >
               {l.label}
             </a>
@@ -149,6 +151,6 @@ export default function Nav() {
           </span>
         </div>
       </div>
-    </header>
+    </>
   );
 }
