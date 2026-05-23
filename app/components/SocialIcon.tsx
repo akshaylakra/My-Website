@@ -1,6 +1,6 @@
 import { SVGProps } from "react";
 
-type IconName = "linkedin" | "twitter" | "youtube" | "newsletter";
+type IconName = "linkedin" | "twitter" | "youtube" | "instagram";
 
 type Props = SVGProps<SVGSVGElement> & {
   name: IconName;
@@ -42,11 +42,12 @@ export default function SocialIcon({ name, ...rest }: Props) {
           <path d="M10.5 9.2v5.6l4.8-2.8z" fill="currentColor" stroke="none" />
         </svg>
       );
-    case "newsletter":
+    case "instagram":
       return (
         <svg {...common}>
-          <rect x="3" y="5" width="18" height="14" rx="2" />
-          <path d="M3.5 6.5L12 13l8.5-6.5" />
+          <rect x="3" y="3" width="18" height="18" rx="5" />
+          <circle cx="12" cy="12" r="4" />
+          <circle cx="17.5" cy="6.5" r="0.6" fill="currentColor" stroke="none" />
         </svg>
       );
   }

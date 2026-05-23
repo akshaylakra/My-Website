@@ -5,7 +5,7 @@ type Channel = {
   name: string;
   handle: string;
   description: string;
-  icon: "linkedin" | "twitter" | "youtube" | "newsletter";
+  icon: "linkedin" | "twitter" | "youtube" | "instagram";
   href: string;
   cta: string;
 };
@@ -13,39 +13,39 @@ type Channel = {
 const channels: Channel[] = [
   {
     name: "LinkedIn",
-    handle: "@akshayklakra",
+    handle: "@akshaylakra",
     description:
       "Where I post most often — short notes on B2B marketing, GTM, and what's working in the field.",
     icon: "linkedin",
-    href: "https://www.linkedin.com/in/akshayklakra",
+    href: "https://www.linkedin.com/in/akshaylakra/",
     cta: "Follow",
   },
   {
-    name: "Twitter / X",
-    handle: "@akshayklakra",
+    name: "Instagram",
+    handle: "@akshay_decodes",
     description:
-      "Faster, sharper, more half-formed. Threads about positioning, demand, and the marketing internet.",
-    icon: "twitter",
-    href: "https://twitter.com/akshayklakra",
+      "Reels and quick visual takes on marketing — frameworks, campaigns, and what's catching my eye.",
+    icon: "instagram",
+    href: "https://instagram.com/akshay_decodes",
     cta: "Follow",
   },
   {
     name: "YouTube",
-    handle: "Akshay Lakra",
+    handle: "@akshay_decodesYT",
     description:
       "Long-form breakdowns of campaigns, frameworks, and tools — when the topic deserves more than a thread.",
     icon: "youtube",
-    href: "https://youtube.com/@akshayklakra",
+    href: "https://www.youtube.com/@akshay_decodesYT",
     cta: "Subscribe",
   },
   {
-    name: "Newsletter",
-    handle: "The Marketing Stack",
+    name: "Twitter / X",
+    handle: "@akshaylkr",
     description:
-      "A weekly note with one idea, one tactic, and one link worth your time. No filler.",
-    icon: "newsletter",
-    href: "#",
-    cta: "Subscribe",
+      "Faster, sharper, more half-formed. Threads about positioning, demand, and the marketing internet.",
+    icon: "twitter",
+    href: "https://x.com/akshaylkr",
+    cta: "Follow",
   },
 ];
 

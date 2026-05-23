@@ -25,7 +25,7 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://akshayklakra.com"),
+  metadataBase: new URL("https://akshaylakra.com"),
   title: "Akshay Lakra — B2B Marketer",
   description:
     "Akshay Lakra is a B2B marketer at a tech startup. Writing about GTM strategy, demand generation, and positioning that actually moves markets.",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "Akshay Lakra — B2B Marketer",
     description:
       "B2B marketer writing about GTM, demand gen, and positioning that moves markets.",
-    url: "https://akshayklakra.com",
+    url: "https://akshaylakra.com",
     siteName: "Akshay Lakra",
     locale: "en_IN",
     type: "website",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     title: "Akshay Lakra — B2B Marketer",
     description:
       "B2B marketer writing about GTM, demand gen, and positioning that moves markets.",
-    creator: "@akshayklakra",
+    creator: "@akshaylkr",
   },
   robots: {
     index: true,

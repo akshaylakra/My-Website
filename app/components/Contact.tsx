@@ -1,10 +1,10 @@
 import Reveal from "./Reveal";
 
 const socials = [
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/akshayklakra" },
-  { label: "Twitter / X", href: "https://twitter.com/akshayklakra" },
-  { label: "YouTube", href: "https://youtube.com/@akshayklakra" },
-  { label: "Newsletter", href: "#channels" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/akshaylakra/" },
+  { label: "Instagram", href: "https://instagram.com/akshay_decodes" },
+  { label: "YouTube", href: "https://www.youtube.com/@akshay_decodesYT" },
+  { label: "Twitter / X", href: "https://x.com/akshaylkr" },
 ];
 
 export default function Contact() {
@@ -38,7 +38,7 @@ export default function Contact() {
 
         <Reveal delay={220}>
           <a
-            href="mailto:hello@akshayklakra.com"
+            href="mailto:hello@akshaylakra.com"
             className="mt-12 inline-block break-all underline decoration-white/30 decoration-2 underline-offset-[10px] transition-colors hover:text-white hover:decoration-white"
             style={{
               fontFamily: "var(--font-display)",
@@ -47,7 +47,7 @@ export default function Contact() {
               letterSpacing: "-0.02em",
             }}
           >
-            hello@akshayklakra.com
+            hello@akshaylakra.com
           </a>
         </Reveal>
 
