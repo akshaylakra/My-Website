@@ -31,8 +31,8 @@ export default function Contact() {
 
         <Reveal delay={140}>
           <p className="mx-auto mt-8 max-w-2xl text-base leading-relaxed text-white/70 sm:text-lg">
-            Working on B2B GTM, hiring for marketing, or just want to argue
-            about positioning over coffee? My inbox is open.
+            Working on B2B, B2C GTM, want to collaborate on content, or just
+            want to argue about positioning? My inbox stays open.
           </p>
         </Reveal>
 

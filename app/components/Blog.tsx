@@ -36,18 +36,19 @@ export default function Blog() {
                 className="headline-display text-black"
                 style={{ fontSize: "clamp(2rem, 5vw, 3.5rem)" }}
               >
-                What I&apos;ve Been{" "}
-                <span className="underline-stroke">Thinking</span>
+                <span className="underline-stroke">Stories</span> Worth Decoding
               </h2>
             </Reveal>
           </div>
 
           <Reveal delay={140}>
             <a
-              href="#"
+              href="https://akshaylakra.medium.com/"
+              target="_blank"
+              rel="noreferrer"
               className="hidden shrink-0 items-center gap-2 rounded-full border border-black px-5 py-2.5 text-sm font-medium text-black transition-colors hover:bg-black hover:text-white sm:inline-flex"
             >
-              All Posts <span aria-hidden>→</span>
+              All Stories on Medium <span aria-hidden>→</span>
             </a>
           </Reveal>
         </div>
@@ -121,10 +122,12 @@ export default function Blog() {
         <Reveal delay={120}>
           <div className="mt-10 sm:hidden">
             <a
-              href="#"
+              href="https://akshaylakra.medium.com/"
+              target="_blank"
+              rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-black px-5 py-2.5 text-sm font-medium text-black"
             >
-              All Posts <span aria-hidden>→</span>
+              All Stories on Medium <span aria-hidden>→</span>
             </a>
           </div>
         </Reveal>

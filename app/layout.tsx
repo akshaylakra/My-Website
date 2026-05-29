@@ -26,9 +26,9 @@ const instrumentSerif = Instrument_Serif({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://akshaylakra.com"),
-  title: "Akshay Lakra — B2B Marketer",
+  title: "Akshay Lakra — Marketer & Creator",
   description:
-    "Akshay Lakra is a B2B marketer at a tech startup. Writing about GTM strategy, demand generation, and positioning that actually moves markets.",
+    "B2B marketer and creator behind @akshay_decodes. Writing about GTM strategy, demand generation, and the hidden patterns behind brands and markets.",
   keywords: [
     "Akshay Lakra",
     "B2B marketing",
@@ -40,9 +40,9 @@ export const metadata: Metadata = {
   authors: [{ name: "Akshay Lakra" }],
   creator: "Akshay Lakra",
   openGraph: {
-    title: "Akshay Lakra — B2B Marketer",
+    title: "Akshay Lakra — Marketer & Creator",
     description:
-      "B2B marketer writing about GTM, demand gen, and positioning that moves markets.",
+      "B2B marketer and creator behind @akshay_decodes. Writing about GTM strategy, demand generation, and the hidden patterns behind brands and markets.",
     url: "https://akshaylakra.com",
     siteName: "Akshay Lakra",
     locale: "en_IN",
@@ -50,9 +50,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Akshay Lakra — B2B Marketer",
+    title: "Akshay Lakra — Marketer & Creator",
     description:
-      "B2B marketer writing about GTM, demand gen, and positioning that moves markets.",
+      "B2B marketer and creator behind @akshay_decodes. Writing about GTM strategy, demand generation, and the hidden patterns behind brands and markets.",
     creator: "@akshaylkr",
   },
   robots: {

@@ -1,10 +1,10 @@
 import Reveal from "./Reveal";
 
 const stats = [
-  { value: "3+", label: "Years in B2B marketing" },
-  { value: "50+", label: "Blog posts published" },
+  { value: "3+", label: "Years in B2B & B2C marketing" },
+  { value: "20+", label: "Blog stories published" },
   { value: "∞", label: "Cups of chai consumed" },
-  { value: "1", label: "Startup I'm building at" },
+  { value: "2", label: "Startups I've built at" },
 ];
 
 const skills = [
@@ -16,6 +16,8 @@ const skills = [
   "B2B SaaS",
   "SEO",
   "Copywriting",
+  "Business Storytelling",
+  "Brand Strategy",
 ];
 
 export default function About() {
@@ -42,10 +44,10 @@ export default function About() {
 
             <Reveal delay={160}>
               <p className="mt-8 text-base leading-relaxed text-text-mid sm:text-lg">
-                I&apos;ve spent the last three years inside B2B SaaS — close
-                enough to engineering to read the codebase, close enough to
-                sales to know which deals slip and why. That middle seat shapes
-                everything I write and ship.
+                I&apos;ve spent my past years in B2B SaaS &amp; B2C Fintech
+                domains as a PMM — close enough to engineering to read the
+                codebase, close enough to sales to know which deals slip and
+                why. That middle seat shapes everything I write and ship.
               </p>
             </Reveal>
 
@@ -58,14 +60,32 @@ export default function About() {
               </p>
             </Reveal>
 
-            <Reveal delay={300}>
+            <Reveal delay={280}>
+              <p className="mt-5 text-base leading-relaxed text-text-mid sm:text-lg">
+                The same instinct drives{" "}
+                <a
+                  href="https://instagram.com/akshay_decodes"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-black underline decoration-text-light/40 underline-offset-4 transition-colors hover:decoration-black"
+                >
+                  @akshay_decodes
+                </a>
+                , where I decode the hidden patterns behind brands, campaigns,
+                and markets — the kind of things most people walk past without
+                a second look.
+              </p>
+            </Reveal>
+
+            <Reveal delay={340}>
               <div className="mt-10 border border-black bg-white p-6 sm:p-7">
                 <p className="text-xs font-medium uppercase tracking-[0.22em] text-text-light">
                   My Mission
                 </p>
                 <p className="mt-3 text-base leading-relaxed text-black sm:text-lg">
                   Help technical teams find the words and motions that turn a
-                  great product into a category most people would defend.
+                  great product into a category people choose, trust, and
+                  defend.
                 </p>
               </div>
             </Reveal>

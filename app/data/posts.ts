@@ -11,44 +11,45 @@ export type Post = {
 
 export const posts: Post[] = [
   {
-    slug: "b2b-gtm-playbook",
-    title: "The B2B GTM Playbook Nobody Talks About",
+    slug: "silent-rise-d2c-brands",
+    title: "The Silent Rise of D2C Brands That Don’t Advertise",
     excerpt:
-      "Most go-to-market advice is recycled from the same five SaaS blogs. Here's the messy, unsexy work that actually compounds — and the order you need to do it in.",
-    category: "Go-to-Market",
-    date: "May 18, 2026",
-    readTime: "12 min read",
-    featured: true,
-    href: "#",
-  },
-  {
-    slug: "icp-probably-wrong",
-    title: "Why Your ICP Is Probably Wrong",
-    excerpt:
-      "If your ICP fits on a slide, it's a persona — not an ICP. A field guide to finding the buyers your product actually wins for.",
-    category: "Strategy",
-    date: "Apr 29, 2026",
-    readTime: "7 min read",
-    href: "#",
-  },
-  {
-    slug: "ai-tools-marketing",
-    title: "AI Tools I Actually Use for Marketing",
-    excerpt:
-      "The five tools that survived the hype cycle on my stack, what I use each for, and the prompt patterns that earned them a permanent slot.",
-    category: "Tools",
-    date: "Apr 12, 2026",
-    readTime: "9 min read",
-    href: "#",
-  },
-  {
-    slug: "positioning-unknown-product",
-    title: "Positioning a Product Nobody Has Heard Of",
-    excerpt:
-      "Category creation is a meme. Here's how to position a brand-new product against the alternative most buyers default to — doing nothing.",
-    category: "Positioning",
-    date: "Mar 24, 2026",
+      "Everyone assumes growth needs advertising. Some of the most interesting brands today never ran an ad campaign — and the pattern behind their growth is more replicable than most founders realize.",
+    category: "Brand Strategy",
+    date: "May 27, 2025",
     readTime: "8 min read",
-    href: "#",
+    featured: true,
+    href: "https://akshaylakra.medium.com/the-silent-rise-of-d2c-brands-that-dont-advertise-b3c2186fa61a",
+  },
+  {
+    slug: "liquid-death-kids",
+    title: "Kids Drink ‘Liquid Death’ and Everyone’s Okay With It. Here’s Why.",
+    excerpt:
+      "A death metal can of water that kids love, parents approve, and investors funded at a $700M valuation. The real question isn’t why Liquid Death works — it’s why no one tried it sooner.",
+    category: "Brand Identity",
+    date: "Mar 8, 2023",
+    readTime: "6 min read",
+    href: "https://akshaylakra.medium.com/kids-drink-liquid-death-everyone-s-okay-with-it-here-s-why-8ad5a71ac1fe",
+  },
+  {
+    slug: "burger-king-guerrilla",
+    title:
+      "Burger King’s Formula for the Biggest Guerrilla Marketing Move in Fast Food",
+    excerpt:
+      "Burger King didn’t outspend McDonald’s. They out-provoked them. This is the formula behind one of the cleverest marketing stunts in the industry — and why it worked beyond the headlines.",
+    category: "Campaign Analysis",
+    date: "Mar 10, 2023",
+    readTime: "7 min read",
+    href: "https://akshaylakra.medium.com/heres-burger-king-s-formula-for-the-biggest-guerilla-marketing-which-annoyed-mcdonald-s-big-time-fb0f682a77ce",
+  },
+  {
+    slug: "dont-take-logo-seriously",
+    title: "Don’t Take Your Logo Too Seriously. Here’s Why.",
+    excerpt:
+      "Most founders spend weeks agonizing over a logo. Almost none of them ask the more important question — what actually builds a brand? The answer is less glamorous and more actionable.",
+    category: "Opinion · Branding",
+    date: "Apr 13, 2023",
+    readTime: "5 min read",
+    href: "https://akshaylakra.medium.com/dont-take-your-logos-too-seriously-never-here-s-why-i-say-this-b1415a2b4f71",
   },
 ];

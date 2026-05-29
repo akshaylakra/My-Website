@@ -40,16 +40,25 @@ export default function Hero() {
             className="headline-display text-black"
             style={{ fontSize: "clamp(2.75rem, 9vw, 6.5rem)" }}
           >
-            <span className="underline-stroke">Decoding</span> Marketing One
+            <span className="underline-stroke">Decoding</span> Business One
             Story At A Time
           </h1>
         </Reveal>
 
         <Reveal delay={220}>
           <p className="mx-auto mt-8 max-w-2xl text-base leading-relaxed text-text-mid sm:text-lg">
-            B2B marketer at a tech startup. I write about growth, go-to-market,
-            and the unglamorous craft of turning a product nobody knows about
-            into one people choose.
+            B2B marketer by day. Business decoder by instinct. I build Inbound
+            &amp; GTM systems inside a SaaS business — and run{" "}
+            <a
+              href="https://instagram.com/akshay_decodes"
+              target="_blank"
+              rel="noreferrer"
+              className="text-black underline decoration-text-light/40 underline-offset-4 transition-colors hover:decoration-black"
+            >
+              @akshay_decodes
+            </a>
+            , where I pull back the curtain on how brands, campaigns, and
+            entire industries actually work beneath the surface.
           </p>
         </Reveal>
 
@@ -61,7 +70,7 @@ export default function Hero() {
               rel="noreferrer"
               className="group inline-flex items-center justify-center gap-2 rounded-full bg-black px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-white hover:text-black hover:ring-1 hover:ring-black"
             >
-              Read the Blog
+              Explore the Blog
               <span className="transition-transform group-hover:translate-x-0.5">
                 →
               </span>

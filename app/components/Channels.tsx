@@ -15,7 +15,7 @@ const channels: Channel[] = [
     name: "LinkedIn",
     handle: "@akshaylakra",
     description:
-      "Where I post most often — short notes on B2B marketing, GTM, and what's working in the field.",
+      "Notes on B2B marketing, GTM strategy, and what's actually working in the field. No motivational fluff, no LinkedIn bingo.",
     icon: "linkedin",
     href: "https://www.linkedin.com/in/akshaylakra/",
     cta: "Follow",
@@ -24,7 +24,7 @@ const channels: Channel[] = [
     name: "Instagram",
     handle: "@akshay_decodes",
     description:
-      "Reels and quick visual takes on marketing — frameworks, campaigns, and what's catching my eye.",
+      "Reels that decode the hidden patterns behind brands, campaigns, and markets. The business stories most people scroll past.",
     icon: "instagram",
     href: "https://instagram.com/akshay_decodes",
     cta: "Follow",
@@ -33,7 +33,7 @@ const channels: Channel[] = [
     name: "YouTube",
     handle: "@akshay_decodesYT",
     description:
-      "Long-form breakdowns of campaigns, frameworks, and tools — when the topic deserves more than a thread.",
+      "Long-form breakdowns for when a story is too big for a Reel. Campaign teardowns, industry deep dives, and strategic frameworks.",
     icon: "youtube",
     href: "https://www.youtube.com/@akshay_decodesYT",
     cta: "Subscribe",
@@ -42,7 +42,7 @@ const channels: Channel[] = [
     name: "Twitter / X",
     handle: "@akshaylkr",
     description:
-      "Faster, sharper, more half-formed. Threads about positioning, demand, and the marketing internet.",
+      "Faster, sharper, less polished. Threads on positioning, demand generation, and what the marketing internet is getting wrong.",
     icon: "twitter",
     href: "https://x.com/akshaylkr",
     cta: "Follow",
@@ -63,7 +63,7 @@ export default function Channels() {
             className="headline-display mx-auto max-w-3xl text-black"
             style={{ fontSize: "clamp(2rem, 5vw, 3.5rem)" }}
           >
-            Find Me <span className="underline-stroke">Everywhere</span>
+            Find Me <span className="underline-stroke">Here</span>
           </h2>
         </Reveal>
 
